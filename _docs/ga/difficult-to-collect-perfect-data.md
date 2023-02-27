@@ -4,7 +4,7 @@ layout: ga
 category: 구글 애널리틱스 4 기초 강의
 title: "100% 완벽한 데이터 수집이 어려운 이유"
 subtitle: 
-description: 
+description: 데이터 수집을 방해하는 요소에 대해 알아봅니다.
 permalink: /ga/difficult-to-collect-perfect-data/
 date: 2023-02-20 13:00:00 +0900
 video_id: xFYehFUO9sw

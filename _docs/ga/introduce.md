@@ -4,7 +4,7 @@ layout: ga
 category: 구글 애널리틱스 4 기초 강의
 title: 강의 소개
 subtitle: 구글 애널리틱스 4 기초 강의 소개
-description: 
+description: 오픈소스마케팅의 GA4 기초 강의를 소개합니다.
 permalink: /ga/introduce/
 date: 2023-02-20 13:00:00 +0900
 video_id: PLXkEVxw3l4

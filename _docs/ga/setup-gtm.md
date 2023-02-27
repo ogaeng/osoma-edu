@@ -4,7 +4,7 @@ layout: ga
 category: 구글 애널리틱스 4 기초 강의
 title: 구글 애널리틱스 4 설치 실습(GTM)
 subtitle: 
-description: 
+description: 구글 태그 매니저를 이용해 GA4 설치하는 방법을 알아봅니다.
 permalink: /ga/setup-gtm/
 date: 2023-02-20 13:00:00 +0900
 video_id: 9v43kAol0nw

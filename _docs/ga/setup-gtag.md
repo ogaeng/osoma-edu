@@ -4,7 +4,7 @@ layout: ga
 category: 구글 애널리틱스 4 기초 강의
 title: 구글 애널리틱스 4 설치 실습(gtag.js)
 subtitle: 
-description: 
+description: GA4에서 제공하는 기본 설치 방식을 실습합니다.
 permalink: /ga/setup-gtag/
 date: 2023-02-20 13:00:00 +0900
 video_id: exN0kubP0Kg

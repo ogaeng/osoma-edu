@@ -4,7 +4,7 @@ layout: ga
 category: 구글 애널리틱스 4 기초 강의
 title: 데이터 수집, 처리, 보고 구조 이해하기
 subtitle: 
-description: 
+description: GA4에서 데이터가 어떻게 수집되고 처리되어 보고서로 출력되는지 그 과정을 알아봅니다.
 permalink: /ga/data-collect-config-process-report/
 date: 2023-02-20 13:00:00 +0900
 video_id: 6CIXzQkh2to

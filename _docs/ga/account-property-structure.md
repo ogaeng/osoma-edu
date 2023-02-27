@@ -4,7 +4,7 @@ layout: ga
 category: 구글 애널리틱스 4 기초 강의
 title: "구글 애널리틱스 4 계정 및 속성 구조"
 subtitle: 
-description:
+description: GA4의 계정과 속성, 데이터 스트림 구조에 대해 알아봅니다.
 permalink: /ga/account-property-structure/
 date: 2023-02-20 13:00:00 +0900
 video_id: oau8DIImVfA

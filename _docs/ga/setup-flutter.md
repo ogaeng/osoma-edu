@@ -4,7 +4,7 @@ layout: ga
 category: 구글 애널리틱스 4 기초 강의
 title: 구글 애널리틱스 4 설치 실습(Flutter, 모바일 앱)
 subtitle: 
-description: 
+description: 플러터로 제작된 앱 환경에서 GA4를 어떻게 설치하는지 알아봅니다.
 permalink: /ga/setup-flutter/
 date: 2023-02-20 13:00:00 +0900
 video_id: B0wDmwZ7pOg

@@ -4,7 +4,7 @@ layout: ga
 category: 구글 애널리틱스 4 기초 강의
 title: 구글 애널리틱스 4 소개
 subtitle: 
-description: 
+description: GA4란 무엇인지 어떤 상황에서 사용하는지 그 방법을 알아봅니다.
 permalink: /ga/what-is-ga4/
 date: 2023-02-20 13:00:00 +0900
 video_id: lZad6JQwsjI
