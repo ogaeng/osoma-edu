@@ -1,0 +1,14 @@
+# Mobile menu navigation links
+
+- title: Home
+  url: /
+
+- title: GA4
+  url: /ga/introduce/
+
+- title: Blog
+  url: https://osoma.kr
+
+- title: 강의 요청
+  url: /contact/
+  button: success

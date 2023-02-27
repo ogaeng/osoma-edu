@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /404.html
+Disallow: /uploads/
+Disallow: /images/
+
+Sitemap: https://edu.osoma.kr/sitemap.xml

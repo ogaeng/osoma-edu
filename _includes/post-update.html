@@ -1,0 +1,6 @@
+<div class="uk-article-meta">
+  <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+      최종 업데이트: {% assign date_format = site.date_format | default: "%Y.%-m.%-d" %}
+      {{ page.update | date: date_format }}
+  </time>
+</div>

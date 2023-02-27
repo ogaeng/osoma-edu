@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "ko" }}">
+
+    {% include head.html %}
+
+    <body>
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://cdp.osoma.kr/ns.html?id=GTM-KHPHH7Z"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+
+    {% if page.hero %}
+        {% include hero.html %}
+    {% else %}
+        {% include navbar.html %}
+    {% endif %}
+
+    {{ content }}
+
+    {% include offcanvas-docs.html %}
+
+    {% include offcanvas.html %}
+
+    {% if page.layout != 'doc' %}
+        {% include footer.html %}
+    {% endif %}
+
+    {% if page.layout == 'doc' %}
+        {% include hook-pre-closing-body-doc.html %}
+    {% endif %}
+
+    {% include hook-pre-closing-body.html %}
+
+    </body>
+
+</html>

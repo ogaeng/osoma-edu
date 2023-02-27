@@ -1,0 +1,16 @@
+- title: 구글 애널리틱스 4 기초 강의
+  docs:
+  - introduce
+
+- title: 01. 구글 애널리틱스 4란?
+  docs:
+  - what-is-ga4
+  - data-collect-config-process-report
+  - difficult-to-collect-perfect-data
+
+- title: 02. 구글 애널리틱스 4 구조와 설치
+  docs:
+  - account-property-structure
+  - setup-gtag
+  - setup-gtm
+  - setup-flutter
