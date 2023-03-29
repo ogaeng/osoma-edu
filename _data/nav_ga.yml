@@ -14,3 +14,7 @@
   - setup-gtag
   - setup-gtm
   - setup-flutter
+
+- title: 03. 이벤트의 이해
+  docs:
+  - understanding-event
