@@ -19,3 +19,6 @@
   docs:
   - understanding-event
   - planning-event
+  - auto-recommand-event
+  - event-setup-gtag
+  - event-setup-gtm

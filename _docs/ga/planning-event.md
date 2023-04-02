@@ -19,3 +19,5 @@ video_id: xYl46MoWs5U
 5. 이벤트 매개변수 정의하기
 6. 우선 순위 지정하기
 7. 이벤트 문서화하기
+
+[▶️ 이벤트 정의서 샘플 링크](https://oso.ma/IMG7Q){:target="_blank"}
