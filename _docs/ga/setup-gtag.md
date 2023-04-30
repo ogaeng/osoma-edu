@@ -26,7 +26,7 @@ video_id: exN0kubP0Kg
 ### 3. 실습 웹사이트 다운로드
 
 - 실습에 활용할 웹사이트를 제공합니다.
-- [여기](https://drive.google.com/file/d/1oC8DWzRLAgDEc2ORnY5EgHVK8CxguRpO/view?usp=sharing){:target="_blank"}를 눌러 웹사이트 파일을 다운로드합니다.
+- [여기](https://drive.google.com/file/d/16qtvbSIN2ev4cx6Ms1HkoRu625x2yWpV/view?usp=sharing){:target="_blank"}를 눌러 웹사이트 파일을 다운로드합니다.
 - 다운로드한 파일의 압축을 풀고 원하는 폴더로 이동합니다.
 
 ## 테스트를 위한 플러그인 설치
