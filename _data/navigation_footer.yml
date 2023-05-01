@@ -3,7 +3,7 @@
 - title: Home
   url: /
 
-- title: GA4
+- title: GA4 강의
   url: /ga/introduce/
 
 - title: 오픈소스마케팅
@@ -11,3 +11,6 @@
 
 - title: 강의 요청
   url: /contact/
+
+- title: GA4 컨설팅
+  url: https://osoma.kr/ga-consulting/
