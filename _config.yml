@@ -18,7 +18,7 @@ baseurl:            ""
 permalink:          /:title/
 
 # Site base hostname & protocol, e.g. http://example.com
-url:                ""
+url:                "https://edu.osoma.kr"
 
 # Site logo # e.g. logo.png, upload logo image file to /uploads/ folder
 logo:               logo_980x518_no-bg_dark.png
