@@ -10,6 +10,7 @@ tagline:            GA4, GTM, 디지털 마케팅 전문 강의
 description:        디지털 마케팅 전문 컨설턴트의 디지털 마케팅, GA, GTM, BigQuery 등 강의가 제공됩니다.
 lang:               ko
 thumbnail:          /images/main_thumb.jpg
+timezone:           Asia/Seoul
 
 # Site subpath, e.g. /blog
 baseurl:            ""

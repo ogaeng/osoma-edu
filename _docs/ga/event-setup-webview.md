@@ -16,8 +16,8 @@ video_id: apON1XvDego
 
 ## 2. 관련 문서 링크
 
-- 📄 [Firebase Analytics Webview에서 애널리틱스 사용](https://firebase.google.com/docs/analytics/webview?hl=ko&platform=ios)
-- 📄 [Firebase Analytics 디버깅 이벤트](https://firebase.google.com/docs/analytics/debugview?hl=ko#ios+)
+- 📄 [Firebase Analytics Webview에서 애널리틱스 사용](https://firebase.google.com/docs/analytics/webview?hl=ko&platform=ios){:target="blank"}
+- 📄 [Firebase Analytics 디버깅 이벤트](https://firebase.google.com/docs/analytics/debugview?hl=ko#ios+){:target="blank"}
 
 ## 3. 웹사이트 이벤트 실행
 
