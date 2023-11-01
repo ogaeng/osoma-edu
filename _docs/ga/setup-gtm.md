@@ -7,7 +7,7 @@ subtitle:
 description: 구글 태그 매니저를 이용해 GA4 설치하는 방법을 알아봅니다.
 permalink: /ga/setup-gtm/
 date: 2023-02-20 13:00:00 +0900
-video_id: 9v43kAol0nw
+video_id: -bJgU1RNlqs
 ---
 
 ## 실습 준비 안내
@@ -49,17 +49,17 @@ video_id: 9v43kAol0nw
 ## GA4 태그 생성
 
 - 태그 메뉴에서 새로 만들기 버튼을 누릅니다.
-- 태그 유형에서 Google 애널리틱스: GA4 구성을 선택합니다.
-- 측정 ID 항목에 GA4 데이터 스트림의 측정 ID를 입력합니다.(예: G-XXXXXXXXXX)
+- 태그 유형에서 **Google 태그**를 선택합니다.
+- 태그 ID 항목에 GA4 데이터 스트림의 측정 ID를 입력합니다.(예: G-XXXXXXXXXX)
 - 트리거를 눌러 All Pages를 선택합니다.
 - 태그의 이름을 입력하고 저장합니다.
 
-![GTM 태그](/images/docs/ga/setup-gtm/01.png)
+![GTM 태그](/images/docs/ga/setup-gtm/01_n.png)
 
 ## 미리보기
 
 - 태그 생성을 완료한 뒤 미리보기 버튼을 눌러 Tag Assistant를 실행합니다.
 - 미리보기 창이 뜨면 테스트할 웹사이트 주소를 입력하고 Connect를 누릅니다.
-![GTM 미리보기](/images/docs/ga/setup-gtm/02.png)
+![GTM 미리보기](/images/docs/ga/setup-gtm/02_n.png)
 - Tag Assistant에서 태그가 Fired 되어있는지 확인합니다.
-![GTM 태그 Fired](/images/docs/ga/setup-gtm/03.png)
+![GTM 태그 Fired](/images/docs/ga/setup-gtm/03_n.png)
