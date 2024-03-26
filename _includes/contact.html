@@ -1,0 +1,72 @@
+<form id="ctForm" class="uk-form-stacked uk-margin-medium-top" method="POST" action="https://ctapi.osoma.kr/contact"
+  accept-charset="UTF-8" target="contactblankiframe">
+  <input type="hidden" id="location" name="location" value="" />
+  <div class="uk-margin-medium-bottom">
+    <label class="uk-form-label uk-margin-small-bottom" for="form-stacked-text">이름</label>
+    <div class="uk-form-controls">
+      <input class="uk-input uk-form-large uk-border-rounded" name="name" type="text" required>
+    </div>
+  </div>
+  <div class="uk-margin-medium-bottom">
+    <label class="uk-form-label uk-margin-small-bottom" for="form-stacked-text">회사명</label>
+    <div class="uk-form-controls">
+      <input class="uk-input uk-form-large uk-border-rounded" name="company" type="text" required>
+    </div>
+  </div>
+  <div class="uk-margin-medium-bottom">
+    <label class="uk-form-label uk-margin-small-bottom" for="form-stacked-text">연락처(선택)</label>
+    <div class="uk-form-controls">
+      <input class="uk-input uk-form-large uk-border-rounded" name="phone" type="text">
+    </div>
+  </div>
+  <div class="uk-margin-medium-bottom">
+    <label class="uk-form-label uk-margin-small-bottom" for="form-stacked-text">Email</label>
+    <div class="uk-form-controls">
+      <input id="ct-email" class="uk-input uk-form-large uk-border-rounded" name="email" type="email" required>
+    </div>
+  </div>
+  <div class="uk-margin-medium-bottom">
+    <label class="uk-form-label uk-margin-small-bottom" for="form-stacked-text">문의 내용</label>
+    <div class="uk-form-controls">
+      <textarea class="uk-textarea uk-form-large uk-border-rounded" name="message" rows="5" minlength="10"
+        required></textarea>
+    </div>
+  </div>
+  <div>
+    {% if include.redirect %}
+    <input type="hidden" name="_next" value="{{ include.redirect | absolute_url }}">
+    {% endif %}
+    <input type="text" name="_gotcha" style="display:none">
+    <input type="hidden" name="_subject" value="[edu.osoma.kr]에서 문의가 도착했습니다." />
+    <input class="uk-button uk-button-primary uk-button-large uk-width-1-1 g-recaptcha" type="submit" value="문의 제출"
+      data-sitekey="6LeCcoEhAAAAABX3zxn3bw3tXPSPiYPcBjD1QvfO" data-callback="submitForm" data-action="submit"
+      data-badge="inline">
+  </div>
+</form>
+
+<div class="col col-12" style="display:none;" id="contact_complete">
+  <h4 class="text-center">문의가 제출되었습니다.</h4>
+</div>
+
+<iframe name="contactblankiframe" style="display:none;"></iframe>
+
+<p class="t-tiny">This site is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy">Privacy Policy</a> and <a href="https://policies.google.com/terms">Terms of Service</a> apply.</p>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    document.getElementById("location").value = location.href;
+  });
+
+  var submitForm = function (token) {
+    let emailValue = btoa(document.querySelector('#ct-email').value);
+    dataLayer.push({
+      'event': 'contactSubmit',
+      'email': emailValue
+    });
+
+    document.getElementById("ctForm").submit();
+
+    document.getElementById('ctForm').style.display = 'none';
+    document.getElementById('contact_complete').style.display = 'block';
+  }
+</script>
