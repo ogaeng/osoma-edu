@@ -14,7 +14,7 @@ layout: default
                     {% for doc in section.docs %}
                       {% assign doc_url = doc | prepend:"/docs/" | append:"/" %}
                       {% assign p = site.docs | where:"url", doc_url | first %}
-                      <li class="{% if doc_url == page.url %}uk-active{% endif %}"><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
+                      <li class="{% if doc_url == page.url %}uk-active{% endif %}"><a data-tag-index="docs" data-tag-title="{{ p.title }}" href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
                     {% endfor %}
                     </ul>
                     {% endfor %}
@@ -65,3 +65,10 @@ layout: default
 
     </div>
 </div>
+
+<script>
+  dataLayer.push({
+    'page_index': 'docs_article',
+    'docs_category': '{{ page.category }}',
+  });
+</script>

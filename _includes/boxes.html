@@ -29,9 +29,9 @@
             <div>
                 <div class="uk-card uk-card-default uk-box-shadow-medium uk-card-hover uk-card-body uk-inline border-radius-large border-xlight">
                     {% if item.url %}
-                    <a class="uk-position-cover" href="{{ item.url | relative_url }}"></a>
+                    <a data-tag-index="boxes" data-tag-title="{{ item.title }}" class="uk-position-cover" href="{{ item.url | relative_url }}"></a>
                     {% else %}
-                    <a class="uk-position-cover" onclick="preparing();"></a>
+                    <a data-tag-index="boxes" data-tag-title="{{ item.title }}" class="uk-position-cover" onclick="preparing();"></a>
                     {% endif %}
                     {% if item.icon %}
                     <img src="{{ item.icon | relative_url }}" class="box-img">

@@ -66,3 +66,13 @@ layout: default
 
     </div>
 </div>
+
+<script>
+  dataLayer.push({
+    'event': 'edu_docs_view',
+    'page_index': 'docs_article',
+    'docs_category': '{{ page.category }}',
+    'id': '{{ page.id }}',
+    'title': '{{ page.title | escape }}'
+  });
+</script>
