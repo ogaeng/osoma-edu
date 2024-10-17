@@ -22,7 +22,7 @@
                 {% endif %}
 
                 {% if link.button %}
-                    <li><div class="uk-navbar-item"><a data-tag-index="navbar" data-tag-title="{{ link.title }}" class="uk-button uk-button-{{ link.button }}" href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank" {% endif %}>{{ link.title }}</a></div></li>
+                    <li><div class="uk-navbar-item"><a id="contact-button" data-tag-index="navbar" data-tag-title="{{ link.title }}" class="uk-button uk-button-{{ link.button }}" href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank" {% endif %}>{{ link.title }}</a></div></li>
                 {% else %}
                     <li{{ current }}><a data-tag-index="navbar" data-tag-title="{{ link.title }}" href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank" {% endif %}>{{ link.title }}</a></li>
                 {% endif %}
